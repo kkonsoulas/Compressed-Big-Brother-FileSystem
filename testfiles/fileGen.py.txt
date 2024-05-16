@@ -1,0 +1,4 @@
+import string
+a = string.ascii_lowercase
+for i in range(4096 * 32):
+    print(a[i%26], end='')
